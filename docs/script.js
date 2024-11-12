@@ -28,11 +28,15 @@ async function predict(imageElement) {
 
 document.getElementById('upload-image').addEventListener('change', event => {
     const image = event.target.files[0];
-    const imgElement = document.createElement('img');
-    imgElement.src = URL.createObjectURL(image);
-    imgElement.onload = () => {
-        predict(imgElement);
-    };
+    if (image) {
+        const imgElement = document.createElement('img');
+        imgElement.src = URL.createObjectURL(image);
+        imgElement.onload = () => {
+            predict(imgElement);
+            // Revoke the object URL after the image is loaded
+            URL.revokeObjectURL(imgElement.src);
+        };
+    }
 });
 
 init();
