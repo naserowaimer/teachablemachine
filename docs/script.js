@@ -17,7 +17,6 @@ async function init() {
     // or files from your local hard drive
     model = await tmImage.load(modelURL, metadataURL);
     maxPredictions = model.getTotalClasses();
-
     // Convenience function to setup a webcam
     const flip = true; // whether to flip the webcam
     const width = 200;
