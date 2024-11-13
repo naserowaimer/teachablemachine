@@ -72,7 +72,7 @@ h1 {
 .container *{
     margin: 10px;
 }
-.container p a{
+.container p a, .container p b{
     margin: 0;
 }
 .container p{
