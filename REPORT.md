@@ -1,20 +1,15 @@
-**Cover Page**
+# Teachable Machine - Image Classification
+**Student Names:** Naser Al Owaimer
+**Student Numbers:** 445102817
 
-```
-Assignment Title: Teachable Machine - Image Classification
-Student Names: Naser Al Owaimer
-Student Numbers: 445102817
-```
-
----
-
-**Section One: Project Description**
+## Project Description
 
 This project utilizes Google's Teachable Machine to train an AI model for image classification as part of a college course (IS201). The model is trained on a dataset consisting of images of various classes and is designed to classify images into these categories. The project was chosen due to an interest in applying machine learning techniques to practical problems and leveraging Google's user-friendly Teachable Machine platform to facilitate the process.
 
 ---
 
-**Section Two: Data Collection**
+
+## Section One: Data Collection
 
 The training data for this project was sourced from Kaggle datasets, specifically image sets of bikes, cars, and airplanes. The datasets used include:
 - Bikes and Cars image sets: [Kaggle Dataset](https://www.kaggle.com/datasets/pavansanagapati/images-dataset?resource=download)
@@ -24,12 +19,12 @@ The images were organized into different folders for each class to facilitate th
 
 ---
 
-**Section Three: Model Training**
+## Section Two: Model Training
 
-**Training Process:**
+### Training Process:
 The model was trained using the Teachable Machine platform. The steps involved included uploading the images, labeling them according to their classes, and training the model using the platform's built-in tools. One challenge encountered was ensuring sufficient and balanced data across all classes to avoid bias in the model.
 
-**Performance Analysis with Varying Data:**
+### Performance Analysis with Varying Data:
 [Table template for analysis]
 
 
@@ -42,7 +37,7 @@ The model was trained using the Teachable Machine platform. The steps involved i
 
 ---
 
-**Section Four: Model Testing**
+## Section Three: Model Testing
 
 **Testing Results:**
 Using the test set images (in `testset` folder), the model's accuracy was calculated manually.
@@ -63,7 +58,7 @@ Accuracy = (Number of correct predictions / Total number of predictions)
 |![](./testset/testimg8.jpeg)|Bike (59%) |Bike|Correct|
 |![](./testset/testimg9.jpeg)|Car (51%) |Bike|Incorrect|
 |![](./testset/testimg10.jpeg)|Bike (99%) |Bike|Correct|
-|![](./testset/testimg11.jpg)|Car (94%) |Car|Correct|
+|![](./testset/testimg11.jpeg)|Car (94%) |Car|Correct|
 |![](./testset/testimg12.jpg)|Car (53%) |Car|Correct|
 |![](./testset/testimg13.jpg)|Car (98%) |Car|Correct|
 |![](./testset/testimg14.jpg)|Car (99%) |Car|Correct|
@@ -84,6 +79,6 @@ Accuracy = (Number of correct predictions / Total number of predictions)
 
 ---
 
-**Section Five: Conclusion**
+## Section Four: Conclusion
 
 Through this project, I learned about the practical steps involved in training and testing a machine learning model for image classification. This experience highlighted the importance of data quality and quantity in achieving accurate predictions and provided insights into the challenges of model training, such as handling imbalanced datasets. Overall, this project has deepened my understanding of machine learning and its applications in computer science.
