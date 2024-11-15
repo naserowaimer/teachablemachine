@@ -1,5 +1,6 @@
 # Teachable Machine - Image Classification
 **Student Names:** Naser Al Owaimer
+
 **Student Numbers:** 445102817
 
 ## Project Description
