@@ -8,6 +8,7 @@
 This project utilizes Google's Teachable Machine to train an AI model for image classification as part of a college course (IS201). The model is trained on a dataset consisting of images of various classes and is designed to classify images into these categories. The project was chosen due to an interest in applying machine learning techniques to practical problems and leveraging Google's user-friendly Teachable Machine platform to facilitate the process.
 
 Read the [`README.md`](./README.md).
+
 ---
 
 

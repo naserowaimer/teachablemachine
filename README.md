@@ -4,6 +4,7 @@ This project is part of my college course IS201. It involves a classification im
 
 For a detailed report on the project, please refer to the [`REPORT.md`](./REPORT.md) file.
 
+
 ## Description
 
 This project utilizes Google's [Teachable Machine](https://teachablemachine.withgoogle.com/) to train an AI model for image classification. The model is trained on a dataset consisting of images of bikes, cars, and airplanes. The training process involved selecting about 100 images for each class from the provided datasets. Access teachable machine page for the model [here](https://teachablemachine.withgoogle.com/models/hFJ7H0itp/).
