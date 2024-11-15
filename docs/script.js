@@ -1,4 +1,4 @@
-const URL = 'https://teachablemachine.withgoogle.com/models/cx3R3CUXZ/';
+const URL = 'https://teachablemachine.withgoogle.com/models/hFJ7H0itp/';
 
 const loadingStatus = document.querySelector('.loadingStatus .loadingConitainer');
 const uploadedImage = document.querySelector('#uploaded-image');

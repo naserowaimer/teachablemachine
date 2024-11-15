@@ -1,1 +1,1 @@
-{"tfjsVersion":"1.3.1","tmVersion":"2.4.7","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2024-11-11T17:36:30.268Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["bike","car","airolane"],"imageSize":224}
+{"tfjsVersion":"1.3.1","tmVersion":"2.4.7","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2024-11-15T10:22:43.020Z","userMetadata":{},"modelName":"ImageTraining","labels":["car","bike","airplane"],"imageSize":224}

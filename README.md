@@ -2,9 +2,11 @@
 
 This project is part of my college course IS201. It involves a classification images AI trained using Teachable Machine. The project is hosted on GitHub Pages and can be accessed [here](https://naserowaimer.github.io/teachablemachine/).
 
+For a detailed report on the project, please refer to the [`REPORT.md`](./REPORT.md) file.
+
 ## Description
 
-This project utilizes Google's [Teachable Machine](https://teachablemachine.withgoogle.com/) to train an AI model for image classification. The model is trained on a dataset consisting of images of bikes, cars, and airplanes. The training process involved selecting about 100 images for each class from the provided datasets. Access teachable machine page for the model [here](https://teachablemachine.withgoogle.com/models/cx3R3CUXZ/).
+This project utilizes Google's [Teachable Machine](https://teachablemachine.withgoogle.com/) to train an AI model for image classification. The model is trained on a dataset consisting of images of bikes, cars, and airplanes. The training process involved selecting about 100 images for each class from the provided datasets. Access teachable machine page for the model [here](https://teachablemachine.withgoogle.com/models/hFJ7H0itp/).
 
 ## Usage
 
@@ -37,8 +39,8 @@ To use the model online without downloading the files, follow these steps:
 ```javascript
 // Load the model
 async function loadModel() {
-    const modelURL = 'https://teachablemachine.withgoogle.com/models/cx3R3CUXZ/model.json';
-    const metadataURL = 'https://teachablemachine.withgoogle.com/models/cx3R3CUXZ/metadata.json';
+    const modelURL = 'https://teachablemachine.withgoogle.com/models/hFJ7H0itp/model.json';
+    const metadataURL = 'https://teachablemachine.withgoogle.com/models/hFJ7H0itp/metadata.json';
     const model = await tmImage.load(modelURL, metadataURL);
     return model;
 }
