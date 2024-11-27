@@ -28,7 +28,7 @@ The images were organized into different folders for each class to facilitate th
 The model was trained using the Teachable Machine platform. The steps involved included uploading the images, labeling them according to their classes, and training the model using the platform's built-in tools. One challenge encountered was ensuring sufficient and balanced data across all classes to avoid bias in the model.
 
 ### Performance Analysis with Varying Data:
-[Table template for analysis]
+
 
 
 | Class           | 40 Images (%) | 60 Images (%) | 100 Images (%) |
@@ -47,7 +47,7 @@ Using the test set images (in `testset` folder), the model's accuracy was calcul
 
 Accuracy = (Number of correct predictions / Total number of predictions)
 
-[Table template for testing results]
+
 
 | Test Image | Predicted Class | Actual Class | Correct/Incorrect |
 |------------|-----------------|--------------|-------------------|
@@ -68,7 +68,7 @@ Accuracy = (Number of correct predictions / Total number of predictions)
 
 
 **Interesting Cases:**
-[Table template for interesting cases]
+
 
 | Test Image | Description |
 |------------|-------------|
